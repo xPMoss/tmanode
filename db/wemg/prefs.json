@@ -1,0 +1,5 @@
+{
+"genres":{"liked":[{"id":14,"name":"Fantasy"},{"id":878,"name":"Science Fiction"}],"disliked":[{"id":37,"name":"Västern"}]},
+"keywords":{"liked":[{"id":1701,"name":"hero"}],"disliked":[{"id":658,"name":"sea"},{"id":1357,"name":"fish"}]},
+"search":["Luca","Coco"]
+}

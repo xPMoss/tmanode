@@ -1,0 +1,8 @@
+[
+{"id":1,"username":"WeMG","email":"patrik.mossberg@gmail.com","password":"35c647d0f36d7c17bfa7191eae7f35471e19e695d69f1d84abd39be3a6963aa5","firstname":"Patrik","surname":"Mossberg","created":"2022-4-22 23:9:57","last_login":"2022-4-25 9:31:57"},
+{"id":2,"username":"xPM","email":"patrik.mossberg@gmail.com","password":"df6c5a628e24dcb53bdea43c85d376bd9b69e8a4049f97b269b308a8eac5e2d6","firstname":"Patrik","created":"2022-4-22 23:14:32","last_login":"2022-4-22 23:14:32"},
+{"id":4,"username":"Ylva","email":"ylva@maila.se","password":"e58740b55c4d9cdb5c265c0df274f0e0c7fa748f9021258b86774f49321786dc","firstname":"","surname":"","created":"2022-4-23 20:42:22","last_login":"2022-4-23 20:43:47"},
+{"id":5,"username":"as","email":"as@maila.com","password":"0cfa6b6f90f35c481518ee6309933e1450332d2b659f578c807981828068826b","firstname":"","surname":"","created":"2022-4-24 18:1:16","last_login":"2022-4-24 18:1:16"},
+{"id":6,"username":"Gäst","email":"gast@maila.com","password":"936826429b971849c4b2f7d6dda835245d881ae38aa367889e1c474f76f176f1","firstname":"","surname":"","created":"2022-4-25 1:5:5","last_login":"2022-4-25 23:43:53"},
+{"id":7,"username":"Ingrid","email":"ingrid@maila.com","password":"343bf2622744817131c814b590bb472d8177feb9999425aef4243e1d47360f17","firstname":"","surname":"","created":"2022-4-25 9:17:8","last_login":"2022-4-25 9:17:8"}
+]

@@ -1,0 +1,8 @@
+[
+{"id":1,"title":"barnfilmer","description":"Lista med barnfilmer","movies":[""]},
+{"id":2,"title":"fantasy","description":"","movies":[""]},
+{"id":3,"title":"pixar","description":"Filmer gjorda av animationstudion Pixar","movies":[""]},
+{"id":"4","title":"skräckfilmer","description":"","movies":[""]},
+{"id":"5","title":"studio ghibli","description":"","movies":[""]},
+{"id":"6","title":"testlista","description":"","movies":[""]}
+]
