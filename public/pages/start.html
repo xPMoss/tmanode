@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Movie App - Google API</title>
+        
+        <!-- jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!-- minimerad CSS, dvs. utan radbrytningar, kommentarer o.dyl. -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        
+        <!-- Bootstraps egen JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        
+        <!-- the form awesome library is used to add icons to our form -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        <!-- Bootstrap table CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.18.3/dist/bootstrap-table.min.css">
+        
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="assets/style.css">
+
+    </head>
+
+    <body>
+        <script>
+            window.onload = async function(){
+                //await $("#footer").load("footer.html");
+                
+            }
+        </script>
+
+        <div class="container-fluid" id="startHeader"></div>
+
+
+		<div class="container-fluid text-center mt-2">
+            <div class="row py-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-4 m-auto">
+                    <h2 class="m-0 p-0"><b>The Movie App</b></h2>
+                    <h4 class="m-0 p-0"><small>Håll koll på filmer</small></h4>
+                    <h4 class="m-0 p-0"><small>Spara filmer du vill se</small></h4>
+                    <h4 class="m-0 p-0"><small>Få tips på filmer som passar dig</small></h4>
+                    
+
+                </div>
+            </div>
+			
+			
+		</div>
+
+		<div class="container-fluid">
+            <div class="row py-2 mt-2">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 col-xl-2 m-auto">
+                    <a class="col-12 btn btn-primary" href="/register">
+                        Skapa ny användare
+                    </a>
+
+                    <div class="text-center mt-3">
+                        eller
+                    </div>
+
+                    <div class="mt-2 text-center">
+                        <a class="" href="/login">
+                            Logga in
+                        </a>
+                    </div>
+                    
+
+                </div>
+            </div>
+
+		</div>
+
+
+
+
+        <!-- teaser Header -->
+        <div class="container-fluid mt-4" id="">
+            <h3 class="" id="teasersHeader"></h3>
+        </div>
+
+        <!-- teaser -->
+
+        <div class="container-fluid mt-4" id="teasersContainer">
+            <div class="" id="teasersInfo"></div>
+            <div class="row pl-2" id="teasers"></div>
+        </div>
+
+        <div class="container-fluid my-4" id="startMovies"></div>
+
+
+
+        <!-- Spacer -->
+        <div class="container-fluid my-4" id=""></div>
+
+        <!-- Footer -->
+        <div class="container-fluid text-center" id="">
+            <div class="row border-top">
+                <div class="col-12 pt-2 pb-3"><small>Powered by <a href="https://www.themoviedb.org/" target="_blank">Tmdb</a></small></div>
+            </div>
+        </div>
+        
+        <!-- Egen JavaScript -->
+        <script src="components/components.js"></script>
+        <script src="components/buttons.js"></script>
+        <script src="components/forms.js"></script>
+        <script src="components/messages.js"></script>
+        <script src="components/movies.js"></script>
+        <script src="components/users.js"></script>
+
+        <script src="middleware/helpers.js"></script>
+        <script src="middleware/api.js"></script>
+        <script src="middleware/tmdb.js"></script>
+        <script src="middleware/globals.js"></script>
+        
+        <script src="pages/start.js"></script>
+
+	</body>
+
+</html>
+
+
+<!--
+style='background-position: center 0px; background-image: url("https://image.tmdb.org/t/p/w500/rr7E0NoGKxvbkb89eR1GwfoYjpA.jpg");'
+
+-->
